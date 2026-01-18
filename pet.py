@@ -3,8 +3,8 @@
 class Pet:
     def __init__(self, name):
         self.name = name
-        self.hunger = 50      # 0 = full, 100 = very hungry
-        self.happiness = 50   # 0 = sad, 100 = very happy
+        self.hunger = 50       # 0 = full, 100 = very hungry
+        self.happiness = 50    # 0 = sad, 100 = very happy
 
     def feed(self):
         if self.hunger > 0:
