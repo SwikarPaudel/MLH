@@ -1,4 +1,4 @@
-# Object Oriented Digital Pets
+# Object Oriented Digital Pet
 
 class Pet:
     def __init__(self, name):
